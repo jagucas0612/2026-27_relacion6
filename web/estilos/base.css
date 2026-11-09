@@ -1,0 +1,106 @@
+@charset "UTF8";
+
+h1 {
+    margin-top: 10px;
+}
+h2 {
+    margin-bottom: 0px;
+}
+body {
+    background-color: #4B7F52;
+    font-size: 16px;
+}
+#documento{
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #7DD181;
+    border: solid 3px black;
+    max-width: 700px;
+    width: 100%;
+}
+#cabecera{
+    background-color: #14e737;
+    padding: 5px;
+}
+#cabecera #logo{
+    width: 75px;
+    height: 50px;
+}
+
+#cabecera #titulo{
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+#barraUbicacion {
+    border-radius: 15px;
+    padding: 8px;
+    background-color: #B6F9C9;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.boton{
+    background-color: blue;
+    color:white;
+    border:thin black solid;
+}
+
+.boton a{
+    text-decoration: none;
+    color:white;
+}
+
+.boton a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+.boton a:hover{
+    background-color:cyan;
+    color: black;
+}
+
+.boton:hover{
+    background-color:cyan;
+    color: black;
+}
+
+.tabla{
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    background-color: white;
+}
+
+.tabla th{
+    background-color: teal;
+    color: blue;
+}
+.tabla tr.par{
+    background-color: black;
+    color: white;
+    
+}
+
+#pie{
+    background-color: #81e714;
+    color: blue;
+    font-size: 1.5 em;
+    padding: 5px;
+}
+
+.for_texto{
+    border:blue thin solid;
+    background-color: white;
+    padding: 2px;
+    margin:2px;
+    border-radius: 4px;
+}
+.error{
+    background-color: white;
+    color:red;
+    border:thin solid red;
+    padding:5px;
+}
